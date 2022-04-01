@@ -37,10 +37,10 @@ class App extends React.Component {
           <Header user={this.state.user} onLogout={this.logoutHandler} />
           <Switch>
             <Route exact path="/">
-              {/* TODO: if the user is logged in, render the `BestBooks` component, if they are not, render the `Login` component */}
+              {/* PLACEHOLDER: if the user is logged in, render the `BestBooks` component, if they are not, render the `Login` component */}
               <BestBooks />
             </Route>
-            {/* TODO: add a route with a path of '/about' that renders the `About` component */}
+            {/* PLACEHOLDER: add a route with a path of '/about' that renders the `About` component */}
           </Switch>
           <Footer />
         </Router>
